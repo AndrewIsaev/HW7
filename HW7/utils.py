@@ -5,7 +5,8 @@ from typing import Union, Any
 
 def load_students() -> list:
     """
-
+    Load students`s list from students.json
+    :return list
     """
     student_dir = os.path.join("Data", "students.json")
     with open(student_dir, encoding='utf-8') as file:
